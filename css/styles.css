@@ -85,10 +85,11 @@ body {
   color: white;
 }
 .icon {
-  left: 200px;
+  display: block;
 }
 .icons{
-  display: inline-block;
+  display:flex;
+  
 }
 .foot {
   text-align: center;
