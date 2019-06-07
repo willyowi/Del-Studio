@@ -46,3 +46,13 @@ body {
 .We-do {
   display: flex;
 }
+.portfolio-h {
+  text-align: center;
+}
+.portfolio {
+  display: flex;
+  justify-content: center;
+}
+.portfolio2 {
+  display: flex;
+}
