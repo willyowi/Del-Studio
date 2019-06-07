@@ -84,3 +84,12 @@ body {
   left: 500px;
   color: white;
 }
+.icon {
+  left: 200px;
+}
+.icons{
+  display: inline-block;
+}
+.foot {
+  text-align: center;
+}
