@@ -40,3 +40,9 @@ body {
   left: 150px;
   line-height: 2;
 }
+.wedo{
+  text-align: center;
+}
+.We-do {
+  display: flex;
+}
