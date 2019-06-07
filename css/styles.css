@@ -48,15 +48,14 @@ body {
 }
 .portfolio-h {
   text-align: center;
-  position: absolute;
 }
 .portfolio {
   display: flex;
-  justify-content: center;
+  
 }
 .portfolio2 {
   display: flex;
 }
 .col-md-3 {
-  left: 180px;
+   padding:
 }
