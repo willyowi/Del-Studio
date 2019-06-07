@@ -1,0 +1,22 @@
+.container-fluid{
+  position: relative;
+  height: 100%;
+  width:100%;
+  padding-left: 0;
+}
+body {
+  margin-left: 0;
+}
+ .head {
+  position: absolute;
+  top: 205px;
+  text-align: center;
+  left: 340px;
+  color: white;
+}
+.mouse{
+  position: absolute;
+  top: 640px;
+  text-align: center;
+  left:620px;
+}
