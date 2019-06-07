@@ -35,4 +35,6 @@ body {
 .para {
   position: absolute;
   text-align: center;
+  top: 100px;
+  color: white;
 }
