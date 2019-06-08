@@ -1,7 +1,9 @@
 $(document).ready(function() {
   $(".dezin").click(function() {
     $(".dezin").hide(function(){
-      $(".p1").show();
+      $(".p1").show(function(){
+        $("h5").css("font-weight","bold")
+      });
     });
   });
   $(".p1").click(function(){
