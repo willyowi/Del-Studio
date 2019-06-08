@@ -1,5 +1,44 @@
-$(document).ready(function(){
-  $("#design").click(function(){
-    $(".col-md-4 p").toggle();
+$(document).ready(function() {
+  $(".dezin").click(function() {
+    $(".dezin").hide(function(){
+      $(".p1").show();
+    });
   });
+  $(".p1").click(function(){
+    $(".dezin").show(function(){
+      $(".p1").hide();
+    });
+  });
+
+
+  $(".port").click(function() {
+    $(".port").hide(function(){
+      $(".designs").show();
+    });
+  });
+  $(".designs").click(function(){
+    $(".port").show(function(){
+      $(".designs").hide();
+    });
+  });
+
+
+
+  $(".prod").click(function() {
+    $(".prod").hide(function(){
+      $(".designz").show();
+    });
+  });
+  $(".designz").click(function(){
+    $(".prod").show(function(){
+      $(".designz").hide();
+    });
+  });
+
+
+
+
+
+
+
 });

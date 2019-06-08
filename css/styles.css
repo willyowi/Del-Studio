@@ -127,3 +127,25 @@ textarea {
 .design {
   display: none;
 }
+.designs{
+  position: absolute;
+  text-align: center;
+  top: 0;
+  display: none;
+}
+.designz{
+  position: absolute;
+  text-align: center;
+  top: 0;
+  display: none;
+}
+
+.p1 {
+  display: none;
+}
+.port {
+  position: relative;
+}
+.designs{
+  position: absolute;
+}
