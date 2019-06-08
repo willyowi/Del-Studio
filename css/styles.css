@@ -109,3 +109,17 @@ body {
 .cont h1{
   left: 200px
 }
+input{
+  background-color:transparent;
+  width: 350px;
+  padding: px;
+}
+textarea {
+  background-color: transparent;
+  width: 600px;
+  margin-bottom: 10px;
+  height: 200px;
+}
+.area{
+  left: 300px;
+}
