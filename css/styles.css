@@ -61,6 +61,7 @@ body {
 
 .portfolio {
   display: flex;
+
 }
 
 .portfolio2 {
@@ -122,4 +123,7 @@ textarea {
 }
 .area{
   left: 300px;
+}
+.design {
+  display: none;
 }
