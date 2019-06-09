@@ -46,3 +46,9 @@ $(document).ready(function() {
   });
 
 });
+//******************portfolio*****************
+$(document).ready(function(){
+  $(".p-image").hover(function(){
+    $(".overlay").css("background-color","white")
+  });
+});

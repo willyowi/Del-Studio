@@ -61,15 +61,35 @@ body {
 
 .portfolio {
   display: flex;
+}
+.row.col-md-3:hover img  {
+  background-color: white;
 
 }
-
-.portfolio2 {
+.row {
   display: flex;
 }
-
 .col-md-3 {
-  padding:
+  flex-direction: column;
+}
+
+}
+.overlay{
+  position: absolute;
+  transition:
+  background-color:black;
+  opacity: .7;
+}
+.p-image:hover .overlay {
+  opacity: .4;
+}
+.text {
+  color:white;
+  position: absolute;
+  top: 50%;
+  left:50%:
+  transform:translate(-50%,-50%);
+  font-weight: bold;
 }
 
 .contacts {
@@ -86,11 +106,13 @@ body {
   color: white;
 }
 .icon {
-  display: block;
+  display: bloc;
 }
 .icons{
   display:flex;
-  width: auto;
+   left: 50%;
+   right:50%;
+   margin-left: 400px;
 }
 .foot {
   text-align: center;
