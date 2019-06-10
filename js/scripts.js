@@ -61,10 +61,7 @@ $(document).ready(function() {
   });
 
 
-  $(.texts).hide();
-  $(".port-image").hover(function(){
-    $(".port-image").find(".texts").toggle(400);
-  })
+  
 
 
 
