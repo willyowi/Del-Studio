@@ -133,7 +133,7 @@ body {
 input{
   background-color:transparent;
   width: 350px;
-  padding: px;
+  color: white;
 }
 textarea {
   background-color: transparent;
@@ -168,12 +168,10 @@ textarea {
 .icon:hover {
   color:black
 }
-input{
-  color: white;
-}
  form .area  placeholder{
   color: white;
 }
+
  .btn btn-primary {
   position: absolute;
   left: 50%;
