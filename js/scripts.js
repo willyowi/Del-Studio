@@ -61,9 +61,10 @@ $(document).ready(function() {
   });
 
 
-  $(".p-image").hover(function() {
-    $(".overlay").css("background-color", "white")
-  });
+  $(.texts).hide();
+  $(".port-image").hover(function(){
+    $(".port-image").find(".texts").toggle(400);
+  })
 
 
 
