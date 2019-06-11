@@ -61,7 +61,16 @@ $(document).ready(function() {
   });
 
 
-  
+
+
+    $(".port-image").hover(function () {
+      $(this).find(".texts").show(function(){
+        $(".texts").hide(3000);
+      });
+  });
+
+
+
 
 
 

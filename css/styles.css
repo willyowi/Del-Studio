@@ -63,31 +63,54 @@ body {
 .portfolio {
   display: flex;
 }
-.col-md-3 #p-image:hover  {
+
+.col-md-3 #p-image:hover {
   color: white;
 }
+
 .row {
   display: flex;
 }
+
 .col-md-3 {
   flex-direction: column;
 }
-
 }
-.overlay{
+
+.overlay {
   position: absolute;
   transition:
-  color:black;
-  opacity: .7;
+    color:black;
+    opacity: .7;
 }
-.text {
-  color:white;
+
+.texts {
+  color: black;
   position: absolute;
-  top|:50%;
-  left:50%:
-  transform:translate(-50%,-50%);
+  box-sizing: border-box;
+  border: 5px solid black;
+  top: 1px;
+  left: 50%: transform:translate(-50%, -50%);
   font-weight: bold;
   text-align: center;
+  z-index: 2;
+  display:none;
+  width: 90%;
+  height: 100%;
+}
+.overlay:hover {
+  opacity: ;
+  filter: Alpha(opacity=50);
+
+}
+
+.overlay:hover .texts {
+  opacity: 0.8;
+  display: inline;
+  background-color: white;
+  text-align: center;
+  font-weight: bold;
+  font-size: 30px
 }
 
 .contacts {
@@ -103,18 +126,22 @@ body {
   left: 300px;
   color: white;
 }
+
 .icon {
   display: bloc;
 }
-.icons{
-  display:flex;
-   left: 50%;
-   right:50%;
-   margin-left: 400px;
+
+.icons {
+  display: flex;
+  left: 50%;
+  right: 50%;
+  margin-left: 400px;
 }
+
 .foot {
   text-align: center;
 }
+
 .form-inline input {
   width: 350px;
   height: 4px;
@@ -123,35 +150,43 @@ body {
   border: 10px solid white;
   opacity: 0;
 }
+
 .text textarea {
   opacity: 0.1;
-  color:white;
+  color: white;
 }
-.cont h1{
+
+.cont h1 {
   left: 200px
 }
-input{
-  background-color:transparent;
+
+input {
+  background-color: transparent;
   width: 350px;
   color: white;
 }
+
 textarea {
   background-color: transparent;
   width: 600px;
   margin-bottom: 10px;
   height: 200px;
 }
-.area{
+
+.area {
   left: 300px;
 }
+
 .design {
   display: none;
 }
-.designs{
+
+.designs {
   position: absolute;
   display: none;
 }
-.designz{
+
+.designz {
   position: absolute;
   display: none;
 }
@@ -159,20 +194,21 @@ textarea {
 .p1 {
   display: none;
 }
+
 .port {
   position: relative;
 }
-.designs{
+
+.designs {
   position: absolute;
 }
-.icon:hover {
-  color:black
-}
- form .area  placeholder{
+
+form .area placeholder {
   color: white;
 }
 
- .btn btn-primary {
+.btn btn-primary {
   position: absolute;
   left: 50%;
 }
+.text
